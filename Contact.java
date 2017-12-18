@@ -55,7 +55,14 @@ public class Contact {
     }
 
     public static void main (String[]args){
-        //number of contacts to be added
+        System.out.println("Enter The Number of Entries To Add To The PhoneBook");
+
+        //to make sure only a number is entered
+        while (!scanner.hasNextInt()) {        
+            scanner.next(); 
+            System.out.println("Please Enter A Number: ");
+        }
+        //user has entered a number
         int number = scanner.nextInt();
         numberConstraints(number);
     }
