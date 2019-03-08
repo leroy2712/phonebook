@@ -1,6 +1,6 @@
 # Phonebook
 
-A basic Java Application that maps out a user's name and phone number from a contact list.
+A basic Java Application that maps out a user's name and phone number from a contact list. This was an interview question
 
 # About
 
